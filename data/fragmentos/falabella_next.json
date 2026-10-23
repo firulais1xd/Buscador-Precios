@@ -26,29 +26,32 @@
  ],
  "n_results": 56,
  "primero": {
-  "productId": "154369106",
-  "skuId": "154369107",
+  "productId": "143732681",
+  "skuId": "143732682",
   "topSpecifications": [],
-  "displayName": "TUNE 780 NC Heapdhones - Headband - Black",
+  "displayName": "Tune Buds TWS - Blanco",
   "productType": "REGULAR",
   "viewTemplate": "NORMAL",
-  "url": "https://www.falabella.com.co/falabella-co/product/154369106/jbl-tune-780-nc-heapdhones-headband-black",
+  "url": "https://www.falabella.com.co/falabella-co/product/143732681/JBL-Tune-Buds-TWS-Blanco",
   "brand": "JBL",
   "media": {
-   "id": "154369107",
+   "id": "143732682",
    "type": "PRODUCT",
    "onImageHover": "FETCH_SECOND_IMAGE"
   },
   "mediaUrls": [
-   "https://media.falabella.com.co/falabellaCO/154369107_01/public",
-   "https://media.falabella.com.co/falabellaCO/154369107_02/public",
-   "https://media.falabella.com.co/falabellaCO/154369107_03/public",
-   "https://media.falabella.com.co/falabellaCO/154369107_04/public",
-   "https://media.falabella.com.co/falabellaCO/154369107_05/public"
+   "https://media.falabella.com.co/falabellaCO/143732682_01/public",
+   "https://media.falabella.com.co/falabellaCO/143732682_02/public",
+   "https://media.falabella.com.co/falabellaCO/143732682_03/public",
+   "https://media.falabella.com.co/falabellaCO/143732682_04/public",
+   "https://media.falabella.com.co/falabellaCO/143732682_05/public",
+   "https://media.falabella.com.co/falabellaCO/143732682_06/public",
+   "https://media.falabella.com.co/falabellaCO/143732682_07/public",
+   "https://media.falabella.com.co/falabellaCO/143732682_08/public"
   ],
   "measurements": {},
   "discountBadge": {
-   "label": "-26%",
+   "label": "-21%",
    "styles": {
     "backgroundColor": "#EB0029",
     "textColor": "#ffffff"
@@ -91,7 +94,7 @@
     "crossed": false,
     "type": "cmrPrice",
     "price": [
-     "269.900"
+     "289.900"
     ]
    },
    {
@@ -99,9 +102,19 @@
     "icons": "",
     "symbol": "$ ",
     "crossed": false,
-    "type": "internetPrice",
+    "type": "eventPrice",
     "price": [
-     "363.900"
+     "299.900"
+    ]
+   },
+   {
+    "label": "",
+    "icons": "",
+    "symbol": "$ ",
+    "crossed": true,
+    "type": "normalPrice",
+    "price": [
+     "368.900"
     ]
    }
   ],
@@ -117,26 +130,7 @@
   "variants": [
    {
     "type": "COLOR",
-    "options": [
-     {
-      "label": "Negro",
-      "url": "https://www.falabella.com.co/falabella-co/product/154369106/jbl-tune-780-nc-heapdhones-headband-black/154369107",
-      "value": "000000",
-      "extraInfo": "154369107",
-      "mediaId": "154369107",
-      "selected": true,
-      "isPurchaseable": true,
-      "variant": "154369107",
-      "offeringId": "154369107",
-      "mediaUrls": [
-       "https://media.falabella.com.co/falabellaCO/154369107_01/public",
-       "https://media.falabella.com.co/falabellaCO/154369107_02/public",
-       "https://media.falabella.com.co/falabellaCO/154369107_03/public",
-       "https://media.falabella.com.co/falabellaCO/154369107_04/public",
-       "https://media.falabella.com.co/falabellaCO/154369107_05/public"
-      ]
-     }
-    ]
+    "options": []
    },
    {
     "type": "SIZES",
@@ -145,12 +139,12 @@
   ],
   "sellerId": "SCFD9EB",
   "sellerName": "Techspot",
-  "offeringId": "154369107",
+  "offeringId": "143732682",
   "isBestSeller": false,
   "isSponsored": true,
   "providerName": "topsort",
-  "mabaya_ad_info": "KU6YSwoQBq26LrXde3aJBLYdycfSVhIQAZkx75O4eHGafy8uBZShJxoQAZhmY8M6dKKDrEpfQjaQyCINCgkxNTQzNjkxMDYQATDa0GpIAVCBz9HPljRgk_EDchAAAAAAAAAAAAAAAAAAAAAAeAKFAQAAwEA",
-  "adIdentifier": "KU6YSwoQBq26LrXde3aJBLYdycfSVhIQAZkx75O4eHGafy8uBZShJxoQAZhmY8M6dKKDrEpfQjaQyCINCgkxNTQzNjkxMDYQATDa0GpIAVCBz9HPljRgk_EDchAAAAAAAAAAAAAAAAAAAAAAeAKFAQAAwEA",
+  "mabaya_ad_info": "1kUKngoQBq26P5vefw6iBNoKRHIz_BIQAZkx75O4eHGafy8uBZShJxoQAZhmY8M6dKKDrEpfQjaQyCINCgkxNDM3MzI2ODEQATDa0GpIAVDEj-LPljRgvtQDchAAAAAAAAAAAAAAAAAAAAAAeAKFAQAAwEA",
+  "adIdentifier": "1kUKngoQBq26P5vefw6iBNoKRHIz_BIQAZkx75O4eHGafy8uBZShJxoQAZhmY8M6dKKDrEpfQjaQyCINCgkxNDM3MzI2ODEQATDa0GpIAVDEj-LPljRgvtQDchAAAAAAAAAAAAAAAAAAAAAAeAKFAQAAwEA",
   "GSCCategoryId": "G19010102",
   "promotions": [],
   "installmentsWithoutInterest": [],

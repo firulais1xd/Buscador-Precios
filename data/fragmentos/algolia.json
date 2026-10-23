@@ -1,0 +1,5 @@
+{
+ "scripts": 21,
+ "claves": [],
+ "ctx_html": "           collectionServiceModalIcon: 'alk-icon-reciclar'\n            },\n            installationSearch : true,\n            isInstallationOverlayOptimizationEnabled: false,\n            enabledCredit20MinutesAsmAgent : false,\n\t\t\ttimerMessages: '',\n            entryCart: '',\n            kevelObserverThresholdPercentage: 0.6,\n            algolia : {\n                badgesStyles: [],\n                applicationId : 'QX5IPS1B1Q',\n                apiKey : 'ODNiNzFhOTg5MWEyNWYxZGIyMmMyODFjYjNkMWU3NjVhNjUzYzgzZWUwMjkwODI3NmM4MDliNTY4OTEzODc5NCZmaWx0ZXJzPWF2YWlsYWJsZUJ1eUJ1dE5vdFZpc2libGVfYm9vbGVhbiUzQWZhbHNl',\n                indexName : 'ktronixIndexAlgoliaPRD',\n                maxCartEntries: '50',\n                categories :  {\"BI_1300_KTRON\":{\"name\":\"Bancos y Plataformas Deportivas\",\"urlDisplayName\":\"bancos-plataformas-deportivas\",\"manualHeaderTag\":\"Bicicletas Estáticas y Equipo Fitness: Tu Gimnasio en Casa con Ktronix\",\"dynamicMetaTitle\":\"Bicicletas Estáticas y Equipo Fitness | Ktronix\""
+}

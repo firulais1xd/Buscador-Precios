@@ -51,17 +51,21 @@
   },
   "vtex:alkosto.com": {
    "estado": 404,
-   "bytes": 1097253,
+   "bytes": 1080465,
    "tipo": "text/html;charset=UTF-8",
    "json": false,
    "titulo": "Not Found Page"
   },
   "vtex:ktronix.com": {
-   "error": "Failed to perform, curl: (28) Operation timed out after 25003 milliseconds with 113176 bytes received. See https://curl.se/libcurl/c/libcurl-errors.ht"
+   "estado": 404,
+   "bytes": 998345,
+   "tipo": "text/html;charset=UTF-8",
+   "json": false,
+   "titulo": "Not Found Page"
   },
   "vtex:alkomprar.com": {
    "estado": 404,
-   "bytes": 919422,
+   "bytes": 919493,
    "tipo": "text/html;charset=UTF-8",
    "json": false,
    "titulo": "Not Found Page"
@@ -98,7 +102,7 @@
    "resultados": 0
   },
   "vtex:tiendasd1.com": {
-   "error": "Failed to perform, curl: (28) Connection timed out after 25001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+   "error": "Failed to perform, curl: (28) Connection timed out after 25000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
   },
   "vtex:makro.com.co": {
    "estado": 200,
@@ -118,7 +122,7 @@
   },
   "falabella:html": {
    "estado": 200,
-   "bytes": 1682192,
+   "bytes": 1683556,
    "tipo": "text/html; charset=utf-8",
    "json": false,
    "precio_html": "price",
@@ -127,7 +131,7 @@
   },
   "homecenter:html": {
    "estado": 200,
-   "bytes": 1528090,
+   "bytes": 1500942,
    "tipo": "text/html; charset=utf-8",
    "json": false,
    "precio_html": "Precio",
@@ -136,7 +140,7 @@
   },
   "alkosto:html": {
    "estado": 200,
-   "bytes": 1729887,
+   "bytes": 1713099,
    "tipo": "text/html;charset=UTF-8",
    "json": false,
    "titulo": "Página de búsqueda de Algolia | Alkosto Hiperahorro"
@@ -169,7 +173,7 @@
   },
   "amazon:com": {
    "estado": 200,
-   "bytes": 1246999,
+   "bytes": 1270203,
    "tipo": "text/html;charset=UTF-8",
    "json": false,
    "precio_html": "Precio",

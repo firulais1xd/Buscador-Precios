@@ -1,0 +1,124 @@
+{
+ "searchData": {
+  "results": [
+   45,
+   {
+    "productId": "…",
+    "merchantCategoryId": "…",
+    "skuId": "…",
+    "position": "…",
+    "isPrimeEligible": "…",
+    "displayName": "…",
+    "brand": "…",
+    "model": "…",
+    "media": "…",
+    "badges": "…",
+    "events": "…",
+    "prices": "…",
+    "totalReviews": "…",
+    "rating": "…",
+    "variants": "…",
+    "multiPurposeIcon": "…",
+    "bankBadge": "…",
+    "highlights": "…",
+    "accumulativePoints": "…",
+    "isPromoted": "…",
+    "auctionedId": "…",
+    "isInternational": "…",
+    "installments": "…",
+    "mediaUrls": "…"
+   }
+  ],
+  "sponsoredBanners": [
+   0,
+   null
+  ],
+  "selectedFacets": [
+   0,
+   null
+  ],
+  "facets": [
+   17,
+   {
+    "name": "…",
+    "toolTip": "…",
+    "type": "…",
+    "displayName": "…",
+    "values": "…",
+    "showWithLink": "…",
+    "isExpandible": "…",
+    "isQuickFacet": "…"
+   }
+  ],
+  "pagination": {
+   "count": 505,
+   "perPage": 40,
+   "currentPage": 1
+  },
+  "sortOptions": [
+   7,
+   {
+    "label": "…",
+    "isSelected": "…",
+    "url": "…"
+   }
+  ],
+  "autocorrections": [
+   0,
+   null
+  ],
+  "viewOptions": [
+   2,
+   {
+    "type": "…",
+    "columns": "…",
+    "default": "…",
+    "visible": "…"
+   }
+  ],
+  "endPoints": {
+   "media": {
+    "url": "…"
+   }
+  },
+  "banners": [
+   2,
+   {
+    "path": "…",
+    "position": "…",
+    "template": "…"
+   }
+  ],
+  "queryId": "7462c3da-6614-4c06-ac99-aac54a08d2a4",
+  "smartBanner": {},
+  "auctionedDynamicBanners": {
+   "desktopDynamicBanners": [
+    0,
+    null
+   ],
+   "mobileDynamicBanners": [
+    0,
+    null
+   ]
+  },
+  "auctionIds": [
+   10,
+   {
+    "skuId": "…",
+    "auctionId": "…",
+    "position": "…"
+   }
+  ]
+ },
+ "searchTerm": "",
+ "tenant": "homecenter-co",
+ "xlpRecoCarouselPosition": "CATEGORY",
+ "auctionIds": [
+  10,
+  {
+   "skuId": "484299",
+   "auctionId": "o35rWgoQBq26QEiCehKeBIZW65ZAJBIQAZygcaP5dAO5y81eIhblFRoQBjxVamp8e22jJBur8MU0HiIK",
+   "position": "XLP-1"
+  }
+ ]
+}
