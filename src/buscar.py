@@ -38,10 +38,20 @@ def _coincide(q: str, w: str) -> bool:
     return len(q) >= 5 and len(w) >= 5 and q[:5] == w[:5]          # audifono / audifonos / audífonos
 
 
+def _modelo_coincide(q: str, ws: list[str], texto: str) -> bool:
+    """Números de modelo: '520' acepta 520, 520BT, 520C, JBLT520BT; no acepta 530 ni 5200."""
+    return any(re.search(rf"(?<!\d){re.escape(q)}(?!\d)", w) for w in ws) or bool(re.search(rf"(?<!\d){re.escape(q)}(?!\d)", texto))
+
+
 def relevancia(consulta: list[str], nombre: str) -> float:
     ws = palabras(nombre)
     if not consulta:
         return 0
+    texto = " ".join(ws)
+    # las palabras con números (modelos) son obligatorias
+    for q in consulta:
+        if any(c.isdigit() for c in q) and not _modelo_coincide(q, ws, texto):
+            return 0
     return sum(any(_coincide(q, w) for w in ws) for q in consulta) / len(consulta)
 
 
@@ -155,7 +165,7 @@ def main():
     (RAIZ / "data" / "ultima_busqueda.json").write_text(json.dumps({
         "consulta": q, "trm": tasa, "estado_tiendas": estado, "total_crudo": len(resultados),
         "resultados": [{k: r[k] for k in ("tienda", "nombre", "precio", "precio_antes", "nota", "url", "relevancia")} for r in buenos[:40]],
-        "muestra_algolia": fuentes.muestra_algolia,
+        "muestra_algolia": fuentes.muestra_algolia, "diagnostico_algolia": fuentes.diagnostico_algolia,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
 
 

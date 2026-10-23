@@ -92,6 +92,7 @@ ALGOLIA = {
     "Alkomprar": "https://www.alkomprar.com",
 }
 muestra_algolia = {}   # un resultado de ejemplo por tienda, para depurar nombres de campos
+diagnostico_algolia = {}
 
 
 def _campo(hit: dict, *patrones):
@@ -105,9 +106,12 @@ def _campo(hit: dict, *patrones):
 def algolia(tienda: str, q: str) -> list[dict]:
     base = ALGOLIA[tienda]
     html = _get(f"{base}/search?text={quote(q)}").text
-    app = re.search(r"applicationId\s*:\s*['\"]([A-Z0-9]+)['\"]", html)
-    key = re.search(r"apiKey\s*:\s*['\"]([A-Za-z0-9=+/]{20,})['\"]", html)
-    idx = re.search(r"indexName\s*:\s*['\"]([\w-]+)['\"]", html)
+    # el bloque "algolia : { applicationId, apiKey, indexName }" de la configuración de la página
+    i = html.find("applicationId")
+    bloque = html[max(0, i - 200): i + 1500] if i >= 0 else ""
+    app = re.search(r"applicationId\s*:\s*['\"]([A-Z0-9]+)['\"]", bloque)
+    key = re.search(r"apiKey\s*:\s*['\"]([A-Za-z0-9=+/]{20,})['\"]", bloque)
+    idx = re.search(r"indexName\s*:\s*['\"]([\w-]+)['\"]", bloque)
     if not (app and key and idx):
         raise RuntimeError("no se encontró la configuración de Algolia en la página")
     app, key, idx = app.group(1), key.group(1), idx.group(1)
@@ -115,14 +119,21 @@ def algolia(tienda: str, q: str) -> list[dict]:
                   headers={"X-Algolia-Application-Id": app, "X-Algolia-API-Key": key, "Content-Type": "application/json",
                            "Origin": base, "Referer": base + "/"},
                   data=json.dumps({"params": f"query={quote(q)}&hitsPerPage=30"}))
-    hits = r.json().get("hits", [])
+    datos = r.json()
+    hits = datos.get("hits", [])
+    diagnostico_algolia[tienda] = {"indice": idx, "estado": r.status_code, "nbHits": datos.get("nbHits"),
+                                   "mensaje": datos.get("message", "")[:120]}
     if hits:
         muestra_algolia[tienda] = {k: (v if not isinstance(v, (list, dict)) else str(v)[:80]) for k, v in list(hits[0].items())[:60]}
     out = []
     for h in hits:
         nombre = _campo(h, r"name_text_es", r"name.*_es.*", r"name.*", r"title.*")
-        precio = _campo(h, r"pricevalue_cop_double", r"lowestprice_double", r"price.*cop.*double", r"price.*double")
-        antes = _campo(h, r"baseprice_cop_string", r"baseprice.*", r"listprice.*")
+        # precio de venta = el menor entre precio con descuento, precio más bajo y precio de lista
+        candidatos = [_num(h[k]) for k in ("discountprice_double", "lowestprice_double", "pricevalue_cop_double")
+                      if h.get(k) not in (None, "", 0)]
+        candidatos = [c for c in candidatos if c > 0]
+        precio = min(candidatos) if candidatos else _campo(h, r"price.*cop.*double", r"price.*double")
+        antes = _campo(h, r"pricevalue_cop_double", r"baseprice_cop_string", r"baseprice.*", r"listprice.*")
         url = _campo(h, r"url_es_string", r"url.*")
         stock = _campo(h, r"instock.*", r"stock.*boolean")
         if not nombre or not precio or stock is False:

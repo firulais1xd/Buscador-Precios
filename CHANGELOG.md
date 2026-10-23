@@ -8,6 +8,22 @@ La entrada más reciente va arriba. Cada entrada tiene:
 
 ---
 
+## v0.1.1 — 2026-10-23
+
+**Motivo:** la primera búsqueda real ("audifonos jbl tune 520") funcionó en 22 segundos, con 250 productos de 9 tiendas. Pero se colaban otros modelos (Tune 110, 310, 530), Alkosto mostraba el precio de lista en vez del precio con descuento, y Ktronix y Alkomprar devolvían 0 resultados.
+
+**Cambios:**
+- `src/buscar.py`: las palabras con números (modelos) son obligatorias. "520" acepta 520BT, 520C o JBLT520BT, y rechaza 530 o 5200.
+- `src/fuentes.py`, Algolia:
+  - Lee la configuración solo del bloque `applicationId/apiKey/indexName` de la página, para no tomar otro índice por error.
+  - El precio de venta es el menor entre descuento, precio más bajo y precio de lista; el precio de lista queda como "antes".
+  - Registra un diagnóstico por tienda (índice, estado HTTP, cantidad de resultados).
+- `tests/test_buscar.py`: prueba del número de modelo obligatorio.
+
+**Cómo verificar:** en `data/ultima_busqueda.json` ya no aparecen modelos distintos al buscado, y `diagnostico_algolia` explica los 0 resultados de Ktronix y Alkomprar si se repiten.
+
+---
+
 ## v0.1.0 — 2026-10-23
 
 **Motivo:** con los tres sondeos se confirmaron 11 tiendas consultables. Se construye el buscador.

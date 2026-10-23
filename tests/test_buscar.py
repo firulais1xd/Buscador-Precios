@@ -30,3 +30,11 @@ def test_filtrar_quita_accesorios_irrelevantes_y_duplicados():
     ]
     out = filtrar(res, "audifonos jbl tune 520")
     assert [x["tienda"] for x in out] == ["Alkosto", "Ktronix", "Éxito"]
+
+
+def test_numero_de_modelo_obligatorio():
+    q = palabras("audifonos jbl tune 520")
+    assert relevancia(q, "JBL Audifonos Tune 530C") == 0
+    assert relevancia(q, "JBL Audifonos Tune 5200") == 0
+    assert relevancia(q, "JBL JBLT520BTBLUAM-Z Tune 520BT Auriculares") > 0
+    assert relevancia(q, "Audífonos JBL Tune 520C USB-C") == 1
