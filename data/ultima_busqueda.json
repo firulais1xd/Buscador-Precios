@@ -2,38 +2,20 @@
  "consulta": "audifonos jbl tune 520",
  "trm": 3185.01,
  "estado_tiendas": {
-  "Panamericana": 18,
-  "Ktronix": 0,
-  "Alkomprar": 0,
-  "Alkosto": 30,
   "Carulla": 21,
-  "Olímpica": 30,
-  "Amazon": 15,
   "Falabella": 56,
-  "Homecenter": 40,
+  "Olímpica": 30,
   "Jumbo": 10,
-  "Éxito": 30
+  "Éxito": 30,
+  "Alkosto": 30,
+  "Ktronix": 0,
+  "Alkomprar": "error: Failed to perform, curl: (56) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-error",
+  "Homecenter": 40,
+  "Amazon": 15,
+  "Panamericana": 18
  },
  "total_crudo": 250,
  "resultados": [
-  {
-   "tienda": "Falabella",
-   "nombre": "JBL Audifonos Tune 110 Negro",
-   "precio": 67007.0,
-   "precio_antes": 134014.0,
-   "nota": "",
-   "url": "https://www.falabella.com.co/falabella-co/product/151401696/audifonos-jbl-tune-110-negro",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Olímpica",
-   "nombre": "Audifonos JBL Tune 310C Blanco 1200130011191",
-   "precio": 79900.0,
-   "precio_antes": 119900.0,
-   "nota": "",
-   "url": "https://www.olimpica.com/audifonos-jbl-tune-310c-blanco-1200130011191-1002402609/p",
-   "relevancia": 0.75
-  },
   {
    "tienda": "Amazon",
    "nombre": "JBL JBLT520BTBLUAM-Z Tune 520BT Auriculares inalámbricos en la oreja, azul - (renovado)",
@@ -62,57 +44,12 @@
    "relevancia": 1.0
   },
   {
-   "tienda": "Panamericana",
-   "nombre": "Audífonos de diadema alámbricos JBL Tune 530C, negros",
-   "precio": 99900.0,
-   "precio_antes": 135900.0,
-   "nota": "",
-   "url": "https://www.panamericana.com.co/audifonos-tipo-diadema-alambricos-jbl-tune-530c-negro-731846/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Éxito",
-   "nombre": "Audifonos Jbl Tune 500 Blanco",
-   "precio": 99900.0,
-   "precio_antes": 179900.0,
-   "nota": "",
-   "url": "https://tienda.exito.com/audifonos-jbl-tune-500-blanco-103328008-mp/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Éxito",
-   "nombre": "Audífonos Jbl Tune 530C Alámbricos Negro",
-   "precio": 99900.0,
-   "precio_antes": 149900.0,
-   "nota": "",
-   "url": "https://tienda.exito.com/audifonos-jbl-tune-530c-alambricos-negro-105117376-mp/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Olímpica",
-   "nombre": "Audífonos JBL Tune 135 Negro",
-   "precio": 109900.0,
-   "precio_antes": 149900.0,
-   "nota": "",
-   "url": "https://www.olimpica.com/audifonos-jbl-tune-135-negro-1002411884/p",
-   "relevancia": 0.75
-  },
-  {
    "tienda": "Amazon",
    "nombre": "JBL JBLT520BTBLKAM-Z Tune 520BT Auriculares inalámbricos supraaurales, Negro - (Renovado)",
    "precio": 111443,
    "precio_antes": 111443,
    "nota": "US$34.99 · sin envío ni impuestos",
    "url": "https://www.amazon.com/dp/B0D9KS8RNN",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Jumbo",
-   "nombre": "Audifonos JBL Tune 135BT Bluetooth 5.4 In-Ear 25 Horas Pure Bass Multipunto IPX4 Negro Original",
-   "precio": 116900.0,
-   "precio_antes": 159900.0,
-   "nota": "",
-   "url": "https://www.jumbocolombia.com/audifonos-jbl-tune-135bt-bluetooth-5-4-in-ear-25-horas-pure-bass-multipunto-ipx4-negro-original-20144958/p",
    "relevancia": 0.75
   },
   {
@@ -125,22 +62,13 @@
    "relevancia": 1.0
   },
   {
-   "tienda": "Falabella",
-   "nombre": "JBL Audifonos Tune 135 Negro",
-   "precio": 119900.0,
-   "precio_antes": 169900.0,
-   "nota": "",
-   "url": "https://www.falabella.com.co/falabella-co/product/156992053/audifonos-jbl-tune-135-negro",
+   "tienda": "Amazon",
+   "nombre": "JBL JBLT520BTPURAM-Z Tune 520BT Auriculares inalámbricos en la oreja, púrpura - (renovado)",
+   "precio": 127241,
+   "precio_antes": 127241,
+   "nota": "US$39.95 · sin envío ni impuestos",
+   "url": "https://www.amazon.com/dp/B08WM3LMJF",
    "relevancia": 0.75
-  },
-  {
-   "tienda": "Olímpica",
-   "nombre": "Audífonos JBL Tune 520C Alámbricos USB-C Blanco",
-   "precio": 129900.0,
-   "precio_antes": 209900.0,
-   "nota": "",
-   "url": "https://www.olimpica.com/audifonos-jbl-tune-520c-alambricos-usb-c-blanco-1002413095/p",
-   "relevancia": 1.0
   },
   {
    "tienda": "Falabella",
@@ -161,30 +89,21 @@
    "relevancia": 1.0
   },
   {
+   "tienda": "Olímpica",
+   "nombre": "Audífonos JBL Tune 520C Alámbricos USB-C Blanco",
+   "precio": 129900.0,
+   "precio_antes": 209900.0,
+   "nota": "",
+   "url": "https://www.olimpica.com/audifonos-jbl-tune-520c-alambricos-usb-c-blanco-1002413095/p",
+   "relevancia": 1.0
+  },
+  {
    "tienda": "Amazon",
    "nombre": "JBL Tune 520BT - Auriculares inalámbricos en la oreja, batería de hasta 57 horas de duración y carga de velocidad, diseño ligero, cómodo y plegable, llamadas manos libres con detección de voz, color",
    "precio": 143294,
    "precio_antes": 143294,
    "nota": "US$44.99 · sin envío ni impuestos",
    "url": "https://www.amazon.com/dp/B0H5SRR9H9",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Olímpica",
-   "nombre": "Audífonos JBL Tune 530C alámbricos Negro",
-   "precio": 149900.0,
-   "precio_antes": 229900.0,
-   "nota": "",
-   "url": "https://www.olimpica.com/audifonos-jbl-tune-530c-alambricos-negro-1002409176/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Falabella",
-   "nombre": "JBL Audífonos de Diadema Tune 530C",
-   "precio": 149900.0,
-   "precio_antes": 219900.0,
-   "nota": "",
-   "url": "https://www.falabella.com.co/falabella-co/product/158098945/audifonos-de-diadema-jbl-tune-530c",
    "relevancia": 0.75
   },
   {
@@ -195,87 +114,6 @@
    "nota": "",
    "url": "https://www.jumbocolombia.com/audifonos-jbl-diadema-tune-520bt-negro-20136831/p",
    "relevancia": 1.0
-  },
-  {
-   "tienda": "Falabella",
-   "nombre": "JBL Audifonos Diademas Tune 530 Negro",
-   "precio": 159000.0,
-   "precio_antes": 219000.0,
-   "nota": "",
-   "url": "https://www.falabella.com.co/falabella-co/product/158634932/audifonos-diademas-jbl-tune-530-negro",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Falabella",
-   "nombre": "JBL Tune 530BT Audifonos Bluetooth 76Hrs Negro",
-   "precio": 159900.0,
-   "precio_antes": 299000.0,
-   "nota": "con tarjeta CMR: $149.900",
-   "url": "https://www.falabella.com.co/falabella-co/product/154573750/jbl-tune-530bt-audifonos-bluetooth-76hrs-negro",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Éxito",
-   "nombre": "Audífonos JBL Tune 530 BT Blanco",
-   "precio": 159900.0,
-   "precio_antes": 239900.0,
-   "nota": "",
-   "url": "https://tienda.exito.com/audifonos-jbl-tune-530-bt-blanco-124228276/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Falabella",
-   "nombre": "JBL Audífonos de Diadema Tune 530BT",
-   "precio": 164900.0,
-   "precio_antes": 229900.0,
-   "nota": "con tarjeta CMR: $154.900",
-   "url": "https://www.falabella.com.co/falabella-co/product/158114208/audifonos-de-diadema-jbl-tune-530bt",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Jumbo",
-   "nombre": "Audifonos JBL Tune 530BT Bluetooth 6.0 On Ear 76 Horas Pure Bass Multipunto Negro Original",
-   "precio": 167900.0,
-   "precio_antes": 229900.0,
-   "nota": "",
-   "url": "https://www.jumbocolombia.com/audifonos-jbl-tune-530bt-bluetooth-6-0-on-ear-76-horas-pure-bass-multipunto-negro-original-20144966/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Jumbo",
-   "nombre": "Audifonos JBL Tune 530BT Bluetooth 6.0 On Ear 76 Horas Pure Bass Multipunto Azul Original",
-   "precio": 167900.0,
-   "precio_antes": 229900.0,
-   "nota": "",
-   "url": "https://www.jumbocolombia.com/audifonos-jbl-tune-530bt-bluetooth-6-0-on-ear-76-horas-pure-bass-multipunto-azul-original-20144952/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Falabella",
-   "nombre": "JBL AUDIFONOS TUNE 125 BT BLUETOOTH NEGRO 16 horas",
-   "precio": 179000.0,
-   "precio_antes": 219000.0,
-   "nota": "con tarjeta CMR: $169.900",
-   "url": "https://www.falabella.com.co/falabella-co/product/133918114/AUDIFONOS-JBL-TUNE-125-BT-BLUETOOTH-NEGRO",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Falabella",
-   "nombre": "JBL AUDIFONOS TUNE 135BT",
-   "precio": 179000.0,
-   "precio_antes": 219000.0,
-   "nota": "con tarjeta CMR: $169.900",
-   "url": "https://www.falabella.com.co/falabella-co/product/156066448/audifonos-jbl-tune-135bt",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Falabella",
-   "nombre": "JBL Audifonos TUNE 235BT NEGRO",
-   "precio": 179000.0,
-   "precio_antes": 219000.0,
-   "nota": "con tarjeta CMR: $169.900",
-   "url": "https://www.falabella.com.co/falabella-co/product/156066820/audifonos-jbl-tune-235bt-negro",
-   "relevancia": 0.75
   },
   {
    "tienda": "Olímpica",
@@ -323,42 +161,6 @@
    "relevancia": 1.0
   },
   {
-   "tienda": "Éxito",
-   "nombre": "Audífonos Jbl Tune 500 Blancos",
-   "precio": 180006.0,
-   "precio_antes": 360012.0,
-   "nota": "",
-   "url": "https://tienda.exito.com/audifonos-jbl-tune-500-blancos-102748155-mp/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Éxito",
-   "nombre": "Audifonos Jbl Tune 500 Negro",
-   "precio": 180006.0,
-   "precio_antes": 360012.0,
-   "nota": "",
-   "url": "https://tienda.exito.com/audifonos-jbl-tune-500-negro-original-102754698-mp/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Éxito",
-   "nombre": "Audifonos Jbl Tune 500 Alambrico Azul",
-   "precio": 180006.0,
-   "precio_antes": 360012.0,
-   "nota": "",
-   "url": "https://tienda.exito.com/audifonos-jbl-tune-500-alambrico-azul-103327999-mp/p",
-   "relevancia": 0.75
-  },
-  {
-   "tienda": "Carulla",
-   "nombre": "Audífonos Jbl Tune 730Bt Over Ear Pure Bass 76 Horas Negro",
-   "precio": 180900.0,
-   "precio_antes": 215271.0,
-   "nota": "",
-   "url": "https://secure.carulla.com/audifonos-jbl-tune-730bt-over-ear-pure-bass-76-horas-negro-105024235-mp/p",
-   "relevancia": 0.75
-  },
-  {
    "tienda": "Carulla",
    "nombre": "Audífono Inalámbrico Jbl Tune 520Bt Negro",
    "precio": 182400.0,
@@ -368,77 +170,172 @@
    "relevancia": 1.0
   },
   {
-   "tienda": "Falabella",
-   "nombre": "JBL Audifonos Diadema Tune 530 Azul",
-   "precio": 189000.0,
-   "precio_antes": 210900.0,
-   "nota": "",
-   "url": "https://www.falabella.com.co/falabella-co/product/157854461/audifonos-diadema-jbl-tune-530-azul",
+   "tienda": "Amazon",
+   "nombre": "JBL Tune 520BT - Auriculares inalámbricos supraaurales, hasta 57H de duración de batería y carga rápida, diseño ligero, cómodo y plegable, llamadas manos libres con Voice Aware (Negro)",
+   "precio": 190941,
+   "precio_antes": 190941,
+   "nota": "US$59.95 · sin envío ni impuestos",
+   "url": "https://www.amazon.com/dp/B0C1HGKNG7",
    "relevancia": 0.75
+  },
+  {
+   "tienda": "Amazon",
+   "nombre": "JBL Tune 520BT - Auriculares inalámbricos en la oreja - Azul",
+   "precio": 190941,
+   "precio_antes": 190941,
+   "nota": "US$59.95 · sin envío ni impuestos",
+   "url": "https://www.amazon.com/dp/B0CGMV5TMR",
+   "relevancia": 0.75
+  },
+  {
+   "tienda": "Falabella",
+   "nombre": "JBL Audífonos de Diadema Negros Tune 520bt",
+   "precio": 208900.0,
+   "precio_antes": 254900.0,
+   "nota": "",
+   "url": "https://www.falabella.com.co/falabella-co/product/128179738/Audifonos-de-Diadema-Negros-Tune-520bt",
+   "relevancia": 1.0
+  },
+  {
+   "tienda": "Éxito",
+   "nombre": "Audífonos Bluetooth Jbl Tune 520Bt Blanco",
+   "precio": 224900.0,
+   "precio_antes": 299999.0,
+   "nota": "",
+   "url": "https://tienda.exito.com/audifonos-bluetooth-jbl-tune-520bt-blanco-105217672-mp/p",
+   "relevancia": 1.0
+  },
+  {
+   "tienda": "Falabella",
+   "nombre": "JBL Audífonos Diadema Azul Bluetooth Tune 520bt",
+   "precio": 277900.0,
+   "precio_antes": 279900.0,
+   "nota": "",
+   "url": "https://www.falabella.com.co/falabella-co/product/135693452/Audifonos-Diadema-JBL-Azul-Bluetooth-Tune-520bt",
+   "relevancia": 1.0
+  },
+  {
+   "tienda": "Jumbo",
+   "nombre": "Audifonos Diadema JBL Azul Bluetooth TUNE 520BT",
+   "precio": 282900.0,
+   "precio_antes": 404900.0,
+   "nota": "",
+   "url": "https://www.jumbocolombia.com/audifonos-diadema-jbl-azul-bluetooth-tune-520bt-20136830/p",
+   "relevancia": 1.0
+  },
+  {
+   "tienda": "Falabella",
+   "nombre": "JBL Audifonos Tune 520 Bt Negro",
+   "precio": 284007.0,
+   "precio_antes": 568014.0,
+   "nota": "",
+   "url": "https://www.falabella.com.co/falabella-co/product/155151851/audifonos-jbl-tune-520-bt-negro",
+   "relevancia": 1.0
+  },
+  {
+   "tienda": "Falabella",
+   "nombre": "JBL Audifonos Tune 520 Bt Blanco",
+   "precio": 284007.0,
+   "precio_antes": 568014.0,
+   "nota": "",
+   "url": "https://www.falabella.com.co/falabella-co/product/155151398/audifonos-jbl-tune-520-bt-blanco",
+   "relevancia": 1.0
+  },
+  {
+   "tienda": "Éxito",
+   "nombre": "Audifonos Inalámbricos JBL Tune 520BT Bluetooth Azul",
+   "precio": 296400.0,
+   "precio_antes": 410200.0,
+   "nota": "",
+   "url": "https://tienda.exito.com/audifonos-jbl-bluetooth-tune-t510bt-azul-102306030-mp/p",
+   "relevancia": 1.0
+  },
+  {
+   "tienda": "Carulla",
+   "nombre": "Audifonos Jbl Tune 520 Bluetooth Negro",
+   "precio": 5000000.0,
+   "precio_antes": 6749900.0,
+   "nota": "",
+   "url": "https://secure.carulla.com/audifonos-jbl-tune-520-bluetooth-negro-103328027-mp/p",
+   "relevancia": 1.0
   }
  ],
  "muestra_algolia": {
   "Alkosto": {
-   "maxnumberinstallments_int": 28,
-   "_highlightResult": "{'name_text_es': {'value': '<em>Audífonos</em> <em>JBL</em> Inalámbricos Bluetoo",
-   "tipo-audifonos_string_mv": "['Cancelación de Ruido', 'In Ear', 'Totalmente Inalámbricos', 'TWS']",
-   "reviewavgrating_double": 0.0,
-   "subcat-mediospago_string_mv": "['audifonos-inalambricos', 'envios-rapidos-express', 'regreso-a-clases', 'audifo",
-   "uso-accesorio_string_mv": "['Audio', 'Celulares', 'Computadores', 'Tabletas']",
-   "categorypath_string_mv": "['BI_AUDI_ALKOS', 'BI_AUDI_ALKOS/BI_111_ALKOS']",
-   "availableBuyButNotVisible_boolean": false,
-   "characteristics_es_string": "Escucha tu música con la calidad JBL Pure Bass y aísla el mundo con la Cancelación de Ruido Activa de los JBL Tune Buds 2 Blanco. Su diseño liviano, cómodo y resistente al agua (IP54) los hace perfectos para cualquier aventura. Con la increíble autonomía de hasta 48 horas de reproducción combinada, tu banda sonora nunca se detiene. Gestiona llamadas y audio fácilmente desde la app. ¡La libertad True Wireless al mejor precio está aquí! ¡No te quedes sin el tuyo!",
-   "pickupavailableflag_boolean": true,
-   "salesproducts_double": 31251260000.0,
-   "marca_text": "JBL",
-   "linea-modelo_string_mv": "['JBLTBUDS2WHTAM']",
-   "stocklevelstatus_string": "inStock",
-   "objectID": "1200130016301",
-   "datalayercategories_string": "audio/audifonos",
-   "stocklevel_int": 168,
-   "tipo-accesorio-electronica_string_mv": "['Audífonos']",
-   "img-750wx750h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=750",
+   "last_updated_by": "FULL",
+   "comparableattributes_string_mv": "['3=Conexión=Inalámbrica', '1=Uso=Audio, Celulares, Computadores, Tabletas', '2=",
+   "isVariablePrice_boolean": false,
    "presale_boolean": false,
+   "reviewavgrating_double": 0.0,
+   "img-310wx310h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=310",
+   "pickupavailableflag_boolean": true,
+   "sistema-operativo-disponible_string_mv": "['Compatible con Cualquier Sistema Operativo']",
+   "img-1400wx1400h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=1400",
+   "datalayercategories_string": "audio/audifonos",
+   "totalreviews_int": 0,
+   "keyfeatures_string_mv": "['1=Sonido Pure Bass que da potencia a tus ritmos.', '2=Activa el modo de cancel",
+   "referencia-audifonos_string_mv": "['JBLTBUDS2WHTAM']",
+   "hierarchicalcategory_string_mv": "{'lvl0': 'Audio', 'lvl1': 'Audio > Audífonos'}",
+   "categorypath_string_mv": "['BI_AUDI_ALKOS', 'BI_AUDI_ALKOS/BI_111_ALKOS']",
+   "instockflag_boolean": true,
+   "pricevalue_cop_double": 406900.0,
+   "tipo-audifonos_string_mv": "['Cancelación de Ruido', 'In Ear', 'Totalmente Inalámbricos', 'TWS']",
+   "visible_boolean": "true",
    "averagescore_double": 0.0,
-   "categoryname_text_es_mv": "['Audio', 'Audífonos']",
-   "brand_string_mv": "['JBL']",
-   "allcategories_string_mv": "['audifonos-inalambricos', 'envios-rapidos-express', 'regreso-a-clases', 'audifo",
-   "conexion-audifonos_string_mv": "['Inalámbrica']",
-   "color_string_mv": "['Blanco']",
+   "isinstallationservice_boolean": false,
+   "baseprice_cop_string": 406900.0,
+   "resumenEmotivo_es_string": "Escucha tu música con la calidad JBL Pure Bass y aísla el mundo con la Cancelación de Ruido Activa de los JBL Tune Buds 2 Blanco. Su diseño liviano, cómodo y resistente al agua (IP54) los hace perfectos para cualquier aventura. Con la increíble autonomía de hasta 48 horas de reproducción combinada, tu banda sonora nunca se detiene. Gestiona llamadas y audio fácilmente desde la app. ¡La libertad True Wireless al mejor precio está aquí! ¡No te quedes sin el tuyo!",
+   "accesorio-uso_string_mv": "['Audio', 'Celulares', 'Computadores', 'Tabletas']",
+   "marca_text": "JBL",
+   "badgefields_mv_text_mv": "['Garantia JBL:Garantía 2 años:80:true:Thu Jan 01 00:00:00 COT 2026:Mon Dec 31 2",
+   "lowestprice_double": 299900.0,
+   "bestinstallmentvalue_long": 14014,
+   "availableBuyButNotVisible_boolean": false,
+   "_highlightResult": "{'name_text_es': {'value': '<em>Audífonos</em> <em>JBL</em> Inalámbricos Bluetoo",
+   "percentagediscount_string": "-26%",
    "discountprice_double": 299900.0,
    "gama-producto_string_mv": "['Media']",
-   "instockflag_boolean": true,
-   "totalreviews_int": 0,
-   "percentagediscount_string": "-26%",
-   "accesorio-uso_string_mv": "['Audio', 'Celulares', 'Computadores', 'Tabletas']",
-   "lowestprice_double": 299900.0,
-   "url_es_string": "/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds/p/1200130016301",
-   "hierarchicalcategory_string_mv": "{'lvl0': 'Audio', 'lvl1': 'Audio > Audífonos'}",
-   "stockexhibition_int": 0,
-   "img-820wx820h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=820",
-   "img-60wx60h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=60",
-   "comparableattributes_string_mv": "['3=Conexión=Inalámbrica', '1=Uso=Audio, Celulares, Computadores, Tabletas', '2=",
-   "img-105wx105h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=105",
-   "resumenEmotivo_es_string": "Escucha tu música con la calidad JBL Pure Bass y aísla el mundo con la Cancelación de Ruido Activa de los JBL Tune Buds 2 Blanco. Su diseño liviano, cómodo y resistente al agua (IP54) los hace perfectos para cualquier aventura. Con la increíble autonomía de hasta 48 horas de reproducción combinada, tu banda sonora nunca se detiene. Gestiona llamadas y audio fácilmente desde la app. ¡La libertad True Wireless al mejor precio está aquí! ¡No te quedes sin el tuyo!",
-   "bestinstallmentvalue_long": 14014,
-   "name_text_es": "Audífonos JBL Inalámbricos Bluetooth In Ear TWS Tune Buds 2 Cancelación de Ruido Blanco",
-   "hasKasadoNotFree_boolean": false,
-   "referencia-audifonos_string_mv": "['JBLTBUDS2WHTAM']",
-   "badgefields_mv_text_mv": "['Garantia JBL:Garantía 2 años:80:true:Thu Jan 01 00:00:00 COT 2026:Mon Dec 31 2",
-   "img-1400wx1400h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=1400",
-   "pricevalue_cop_double": 406900.0,
-   "last_full_date": "2026-10-23T06:43:41.736451402",
-   "createddate_long": 1764905053,
-   "img-155wx155h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=155",
-   "last_updated_by": "FULL",
-   "variantdescriptor_string": "color:BLANCO",
-   "popularity_int": 0,
-   "maximumamountavailable_int": 10,
-   "sistema-operativo-disponible_string_mv": "['Compatible con Cualquier Sistema Operativo']",
-   "baseprice_cop_string": 406900.0,
-   "bestfrequencyvalue_string": "Quincenales",
+   "categoryname_text_es_mv": "['Audio', 'Audífonos']",
    "comparableattributes_detailed_string_mv": "['{\"code\":\"ACCESORIO_PARA\",\"label\":\"Uso\",\"value\":\"Audio, Celulares, Computadores",
-   "isVariablePrice_boolean": false
+   "brand_string_mv": "['JBL']",
+   "stockexhibition_int": 0,
+   "popularity_int": 0,
+   "stocklevel_int": 168,
+   "bestfrequencyvalue_string": "Quincenales",
+   "img-750wx750h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=750",
+   "salesproducts_double": 31251260000.0,
+   "img-155wx155h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=155",
+   "hasKasadoNotFree_boolean": false,
+   "img-820wx820h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=820",
+   "maxnumberinstallments_int": 28,
+   "img-105wx105h_string": "https://cdn.dam.alkosto.com/products/1200130016301/1200130016301-001.webp/audifonos-jbl-inalambricos-bluetooth-in-ear-tws-tune-buds-2-cancelacion-ruido-blanco?w=105",
+   "conexion-audifonos_string_mv": "['Inalámbrica']",
+   "allcategories_string_mv": "['audifonos-inalambricos', 'envios-rapidos-express', 'regreso-a-clases', 'audifo",
+   "name_text_es": "Audífonos JBL Inalámbricos Bluetooth In Ear TWS Tune Buds 2 Cancelación de Ruido Blanco",
+   "code_string": "1200130016301",
+   "price_cop_string_mv": "['$100.000 - $500.000']",
+   "characteristics_es_string": "Escucha tu música con la calidad JBL Pure Bass y aísla el mundo con la Cancelación de Ruido Activa de los JBL Tune Buds 2 Blanco. Su diseño liviano, cómodo y resistente al agua (IP54) los hace perfectos para cualquier aventura. Con la increíble autonomía de hasta 48 horas de reproducción combinada, tu banda sonora nunca se detiene. Gestiona llamadas y audio fácilmente desde la app. ¡La libertad True Wireless al mejor precio está aquí! ¡No te quedes sin el tuyo!",
+   "subcat-mediospago_string_mv": "['audifonos-inalambricos', 'envios-rapidos-express', 'regreso-a-clases', 'audifo",
+   "tonalidad-exacta-color_string_mv": "['Blanco']",
+   "linea-modelo_string_mv": "['JBLTBUDS2WHTAM']",
+   "stocklevelstatus_string": "inStock",
+   "category_string_mv": "['BI_AUDI_ALKOS', 'BI_111_ALKOS']",
+   "objectID": "1200130016301",
+   "variantdescriptor_string": "color:BLANCO"
+  }
+ },
+ "diagnostico_algolia": {
+  "Alkosto": {
+   "indice": "alkostoIndexAlgoliaPRD",
+   "estado": 200,
+   "nbHits": 607,
+   "mensaje": ""
+  },
+  "Ktronix": {
+   "indice": "ktronixIndexAlgoliaPRD",
+   "estado": 200,
+   "nbHits": 0,
+   "mensaje": ""
   }
  }
 }
