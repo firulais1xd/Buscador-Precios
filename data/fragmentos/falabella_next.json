@@ -1,0 +1,159 @@
+{
+ "pageProps_claves": [
+  "results",
+  "layout",
+  "facets",
+  "baseFacetsURL",
+  "appliedFacets",
+  "searchTerm",
+  "pagination",
+  "sortOptions",
+  "autoCorrections",
+  "availabilityFacets",
+  "currentLocationId",
+  "site",
+  "keywordRelatedBannerHtml",
+  "currentUrl",
+  "metadata",
+  "normalizedQuery",
+  "initialQuestionsKey",
+  "isShopPage",
+  "pageName",
+  "attributeBanner",
+  "customAttributeBanner",
+  "autopartsData",
+  "listingUrl"
+ ],
+ "n_results": 56,
+ "primero": {
+  "productId": "154369106",
+  "skuId": "154369107",
+  "topSpecifications": [],
+  "displayName": "TUNE 780 NC Heapdhones - Headband - Black",
+  "productType": "REGULAR",
+  "viewTemplate": "NORMAL",
+  "url": "https://www.falabella.com.co/falabella-co/product/154369106/jbl-tune-780-nc-heapdhones-headband-black",
+  "brand": "JBL",
+  "media": {
+   "id": "154369107",
+   "type": "PRODUCT",
+   "onImageHover": "FETCH_SECOND_IMAGE"
+  },
+  "mediaUrls": [
+   "https://media.falabella.com.co/falabellaCO/154369107_01/public",
+   "https://media.falabella.com.co/falabellaCO/154369107_02/public",
+   "https://media.falabella.com.co/falabellaCO/154369107_03/public",
+   "https://media.falabella.com.co/falabellaCO/154369107_04/public",
+   "https://media.falabella.com.co/falabellaCO/154369107_05/public"
+  ],
+  "measurements": {},
+  "discountBadge": {
+   "label": "-26%",
+   "styles": {
+    "backgroundColor": "#EB0029",
+    "textColor": "#ffffff"
+   }
+  },
+  "badges": [
+   {
+    "position": 1,
+    "label": "HOT SALE",
+    "styles": {
+     "backgroundColor": "#333333",
+     "textColor": "#ffffff"
+    }
+   }
+  ],
+  "multipurposeBadges": [],
+  "meatStickers": [
+   {
+    "label": "Envío <b>gratis</b>",
+    "type": "free_shipping",
+    "styles": {
+     "backgroundColor": "#F1F1F1",
+     "textColor": "#008000"
+    }
+   },
+   {
+    "label": "HOT SALE",
+    "type": "event",
+    "styles": {
+     "backgroundColor": "#333333",
+     "textColor": "#ffffff"
+    }
+   }
+  ],
+  "prices": [
+   {
+    "label": "",
+    "icons": "cmr-icon",
+    "symbol": "$ ",
+    "crossed": false,
+    "type": "cmrPrice",
+    "price": [
+     "269.900"
+    ]
+   },
+   {
+    "label": "",
+    "icons": "",
+    "symbol": "$ ",
+    "crossed": false,
+    "type": "internetPrice",
+    "price": [
+     "363.900"
+    ]
+   }
+  ],
+  "totalReviews": "0",
+  "rating": "0",
+  "availability": {
+   "homeDeliveryShipping": "",
+   "pickUpFromStoreShipping": "",
+   "internationalShipping": "",
+   "primeShipping": "",
+   "expressShipping": ""
+  },
+  "variants": [
+   {
+    "type": "COLOR",
+    "options": [
+     {
+      "label": "Negro",
+      "url": "https://www.falabella.com.co/falabella-co/product/154369106/jbl-tune-780-nc-heapdhones-headband-black/154369107",
+      "value": "000000",
+      "extraInfo": "154369107",
+      "mediaId": "154369107",
+      "selected": true,
+      "isPurchaseable": true,
+      "variant": "154369107",
+      "offeringId": "154369107",
+      "mediaUrls": [
+       "https://media.falabella.com.co/falabellaCO/154369107_01/public",
+       "https://media.falabella.com.co/falabellaCO/154369107_02/public",
+       "https://media.falabella.com.co/falabellaCO/154369107_03/public",
+       "https://media.falabella.com.co/falabellaCO/154369107_04/public",
+       "https://media.falabella.com.co/falabellaCO/154369107_05/public"
+      ]
+     }
+    ]
+   },
+   {
+    "type": "SIZES",
+    "options": []
+   }
+  ],
+  "sellerId": "SCFD9EB",
+  "sellerName": "Techspot",
+  "offeringId": "154369107",
+  "isBestSeller": false,
+  "isSponsored": true,
+  "providerName": "topsort",
+  "mabaya_ad_info": "KU6YSwoQBq26LrXde3aJBLYdycfSVhIQAZkx75O4eHGafy8uBZShJxoQAZhmY8M6dKKDrEpfQjaQyCINCgkxNTQzNjkxMDYQATDa0GpIAVCBz9HPljRgk_EDchAAAAAAAAAAAAAAAAAAAAAAeAKFAQAAwEA",
+  "adIdentifier": "KU6YSwoQBq26LrXde3aJBLYdycfSVhIQAZkx75O4eHGafy8uBZShJxoQAZhmY8M6dKKDrEpfQjaQyCINCgkxNTQzNjkxMDYQATDa0GpIAVCBz9HPljRgk_EDchAAAAAAAAAAAAAAAAAAAAAAeAKFAQAAwEA",
+  "GSCCategoryId": "G19010102",
+  "promotions": [],
+  "installmentsWithoutInterest": [],
+  "isFrequentProduct": false
+ }
+}

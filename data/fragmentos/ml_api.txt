@@ -1,0 +1,2 @@
+estado=403 url_final=https://api.mercadolibre.com/sites/MCO/search?q=audifonos%20jbl%20tune%20520
+{"message":"forbidden","error":"forbidden","status":403,"cause":[]}
