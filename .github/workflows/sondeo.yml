@@ -1,0 +1,29 @@
+name: Sondeo de tiendas
+
+on:
+  workflow_dispatch:
+    inputs:
+      busqueda:
+        description: "Producto de prueba"
+        default: "audifonos jbl"
+
+permissions:
+  contents: write
+
+jobs:
+  sondeo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install curl_cffi==0.7.4
+      - run: python src/sondeo.py "${{ inputs.busqueda }}"
+      - name: Guardar resultado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sondeo.json
+          git commit -m "Sondeo de tiendas: ${{ inputs.busqueda }}" || true
+          git push
