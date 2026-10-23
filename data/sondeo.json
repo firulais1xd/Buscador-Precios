@@ -1,0 +1,179 @@
+{
+ "busqueda": "audifonos jbl tune 520",
+ "pruebas": {
+  "vtex:exito.com": {
+   "estado": 206,
+   "bytes": 1312846,
+   "tipo": "application/json; charset=utf-8",
+   "json": true,
+   "resultados": 5,
+   "ejemplo": "Audifonos Jbl Tune 520 Bluetooth Negro"
+  },
+  "vtex:olimpica.com": {
+   "estado": 206,
+   "bytes": 736096,
+   "tipo": "application/json; charset=utf-8",
+   "json": true,
+   "resultados": 5,
+   "ejemplo": "Audífonos JBL Tune 110 Azul"
+  },
+  "vtex:carulla.com": {
+   "estado": 206,
+   "bytes": 208866,
+   "tipo": "application/json; charset=utf-8",
+   "json": true,
+   "resultados": 5,
+   "ejemplo": "Audifonos Jbl Tune 520 Bluetooth Negro"
+  },
+  "vtex:tiendasjumbo.co": {
+   "estado": 206,
+   "bytes": 147658,
+   "tipo": "application/json; charset=utf-8",
+   "json": true,
+   "resultados": 5,
+   "ejemplo": "Audífonos JBL Diadema TUNE 520BT Negro"
+  },
+  "vtex:tiendasmetro.co": {
+   "estado": 206,
+   "bytes": 147658,
+   "tipo": "application/json; charset=utf-8",
+   "json": true,
+   "resultados": 5,
+   "ejemplo": "Audífonos JBL Diadema TUNE 520BT Negro"
+  },
+  "vtex:panamericana.com.co": {
+   "estado": 206,
+   "bytes": 260507,
+   "tipo": "application/json; charset=utf-8",
+   "json": true,
+   "resultados": 5,
+   "ejemplo": "Audífonos de diadema alámbricos JBL Tune 520C, morados"
+  },
+  "vtex:alkosto.com": {
+   "estado": 404,
+   "bytes": 1097253,
+   "tipo": "text/html;charset=UTF-8",
+   "json": false,
+   "titulo": "Not Found Page"
+  },
+  "vtex:ktronix.com": {
+   "estado": 404,
+   "bytes": 998345,
+   "tipo": "text/html;charset=UTF-8",
+   "json": false,
+   "titulo": "Not Found Page"
+  },
+  "vtex:alkomprar.com": {
+   "estado": 404,
+   "bytes": 919493,
+   "tipo": "text/html;charset=UTF-8",
+   "json": false,
+   "titulo": "Not Found Page"
+  },
+  "vtex:homecenter.com.co": {
+   "estado": 404,
+   "bytes": 1174,
+   "tipo": "text/html; charset=iso-8859-1",
+   "json": false,
+   "titulo": "404 Not Found"
+  },
+  "vtex:falabella.com.co": {
+   "estado": 520,
+   "bytes": 7373,
+   "tipo": "text/html; charset=UTF-8",
+   "json": false,
+   "titulo": "falabella.com.co | 520: Web server is returning an unknown error"
+  },
+  "vtex:flamingo.com.co": {
+   "estado": 404,
+   "bytes": 4274,
+   "tipo": "text/html; charset=utf-8",
+   "json": false,
+   "titulo": "404 No encontrado"
+  },
+  "vtex:lacuracao.com.co": {
+   "error": "Failed to perform, curl: (6) Could not resolve host: www.lacuracao.com.co. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "vtex:pepeganga.com": {
+   "estado": 200,
+   "bytes": 2,
+   "tipo": "application/json; charset=utf-8",
+   "json": true,
+   "resultados": 0
+  },
+  "vtex:tiendasd1.com": {
+   "error": "Failed to perform, curl: (28) Connection timed out after 25002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+  },
+  "vtex:makro.com.co": {
+   "estado": 200,
+   "bytes": 57488,
+   "tipo": "text/html; charset=UTF-8",
+   "json": false,
+   "titulo": ""
+  },
+  "falabella:browse": {
+   "estado": 400,
+   "bytes": 322,
+   "tipo": "application/json; charset=utf-8",
+   "json": true,
+   "claves": [
+    "errors"
+   ]
+  },
+  "falabella:html": {
+   "estado": 200,
+   "bytes": 1682192,
+   "tipo": "text/html; charset=utf-8",
+   "json": false,
+   "precio_html": "price",
+   "next_data": true,
+   "titulo": "falabella.com"
+  },
+  "homecenter:html": {
+   "estado": 200,
+   "bytes": 1500942,
+   "tipo": "text/html; charset=utf-8",
+   "json": false,
+   "precio_html": "Precio",
+   "next_data": true,
+   "titulo": "Descubre Equipos de sonido y parlantes | Homecenter"
+  },
+  "alkosto:html": {
+   "error": "Failed to perform, curl: (28) Operation timed out after 25001 milliseconds with 117326 bytes received. See https://curl.se/libcurl/c/libcurl-errors.ht"
+  },
+  "ktronix:html": {
+   "estado": 200,
+   "bytes": 1514397,
+   "tipo": "text/html;charset=UTF-8",
+   "json": false,
+   "titulo": "Página de búsqueda de Algolia | Ktronix Pasion Tecno"
+  },
+  "mercadolibre:api": {
+   "estado": 403,
+   "bytes": 67,
+   "tipo": "application/json; charset=utf-8",
+   "json": true,
+   "claves": [
+    "message",
+    "error",
+    "status",
+    "cause"
+   ]
+  },
+  "mercadolibre:html": {
+   "estado": 200,
+   "bytes": 25433,
+   "tipo": "text/html; charset=utf-8",
+   "json": false,
+   "titulo": ""
+  },
+  "amazon:com": {
+   "estado": 200,
+   "bytes": 1187792,
+   "tipo": "text/html;charset=UTF-8",
+   "json": false,
+   "precio_html": "Precio",
+   "titulo": "Amazon.com : audifonos jbl tune 520"
+  }
+ }
+}
