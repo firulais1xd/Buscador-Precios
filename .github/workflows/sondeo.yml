@@ -21,6 +21,7 @@ jobs:
       - run: pip install curl_cffi==0.7.4
       - run: python src/sondeo.py "${{ inputs.busqueda }}"
       - run: python src/sondeo2.py "${{ inputs.busqueda }}"
+      - run: python src/sondeo3.py "${{ inputs.busqueda }}"
       - name: Guardar resultado
         run: |
           git config user.name "github-actions[bot]"

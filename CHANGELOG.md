@@ -8,6 +8,18 @@ La entrada más reciente va arriba. Cada entrada tiene:
 
 ---
 
+## v0.0.3 — 2026-10-23
+
+**Motivo:** el segundo sondeo confirmó que Falabella entrega 56 resultados con precio normal y precio con tarjeta CMR. También mostró que Ktronix y Alkosto usan Algolia (app `QX5IPS1B1Q`, índices `ktronixIndexAlgoliaPRD` y `alkostoIndexAlgoliaPRD`), pero su clave pública de búsqueda no está en el HTML. Mercado Libre redirige a una "verificación de cuenta" y su API responde 403. Amazon y Homecenter necesitan otro análisis.
+
+**Cambios:**
+- `src/sondeo3.py`: busca la clave pública de Algolia en los scripts de Ktronix, cuenta los marcadores de la página de Amazon (resultados, precios, captcha) y resume la estructura de búsqueda de Homecenter.
+- `.github/workflows/sondeo.yml`: también ejecuta el tercer sondeo.
+
+**Cómo verificar:** aparecen `data/fragmentos/algolia.json`, `amazon2.txt` y `homecenter2.json`.
+
+---
+
 ## v0.0.2 — 2026-10-23
 
 **Motivo:** el primer sondeo mostró que responden Éxito, Olímpica, Carulla, Jumbo, Metro y Panamericana (VTEX), además de Falabella, Homecenter, Ktronix y Amazon. Alkosto tardó demasiado, y Mercado Libre bloqueó su API (403) y devolvió una página extraña. Hace falta ver cómo vienen los datos en cada página.
