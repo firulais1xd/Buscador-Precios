@@ -3,6 +3,7 @@
 """
 import json
 import re
+import time
 from urllib.parse import quote
 
 from curl_cffi import requests as http
@@ -12,7 +13,14 @@ CABECERAS = {"Accept-Language": "es-CO,es;q=0.9"}
 
 
 def _get(url, **kw):
-    return http.get(url, impersonate="chrome", timeout=TIEMPO, verify=False, headers=CABECERAS, **kw)
+    """GET con un reintento (algunas tiendas cortan la conexión de vez en cuando)."""
+    for intento in range(2):
+        try:
+            return http.get(url, impersonate="chrome", timeout=TIEMPO, verify=False, headers=CABECERAS, **kw)
+        except Exception:
+            if intento:
+                raise
+            time.sleep(2)
 
 
 def _num(texto) -> float:

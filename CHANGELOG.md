@@ -8,6 +8,27 @@ La entrada más reciente va arriba. Cada entrada tiene:
 
 ---
 
+## v0.2.0 — 2026-10-23
+
+**Motivo:** que el bot de Telegram responda cuando le escribes un producto. Además, la segunda prueba real ("nevera samsung") funcionó en 9 tiendas, pero Alkomprar tuvo un corte de conexión momentáneo.
+
+**Cambios:**
+- `worker/src/index.js`: Worker de Cloudflare que recibe los mensajes del bot (webhook).
+  - Verifica la clave secreta de Telegram y que el mensaje venga de tu chat; a cualquier otro chat le responde "Este bot es privado".
+  - Responde al instante "Buscando…" y lanza el workflow `buscar.yml` con `repository_dispatch`.
+  - Acepta `/buscar …`, texto libre, `/start` y `/ayuda`.
+- `worker/prueba.mjs`: pruebas del Worker con fetch simulado (clave inválida, búsqueda, texto libre, ayuda, chat ajeno).
+- `worker/wrangler.toml`: configuración del Worker.
+- `.github/workflows/desplegar-bot.yml`: revisa los secretos, prueba y publica el Worker, sube sus secretos, conecta el webhook del bot y registra los comandos `/buscar` y `/ayuda`. La clave del webhook se deriva del token y no se guarda en ningún lado.
+- `src/fuentes.py`: un reintento en cada consulta a las tiendas.
+- `README.md`: explica el funcionamiento, la configuración y las limitaciones.
+
+**Cómo verificar:** después de *Actions › Desplegar bot*, escribirle al bot un producto. Debe responder "Buscando…" al instante y el resultado en 1 minuto aprox.
+
+**Nota:** al conectar el webhook, el bot ya no puede leer mensajes con `getUpdates`. No afecta a Comparador-Mercado ni a Alertas-Vuelos, porque ya tienen guardado `TELEGRAM_CHAT_ID`.
+
+---
+
 ## v0.1.1 — 2026-10-23
 
 **Motivo:** la primera búsqueda real ("audifonos jbl tune 520") funcionó en 22 segundos, con 250 productos de 9 tiendas. Pero se colaban otros modelos (Tune 110, 310, 530), Alkosto mostraba el precio de lista en vez del precio con descuento, y Ktronix y Alkomprar devolvían 0 resultados.

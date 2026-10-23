@@ -1,0 +1,6 @@
+name = "buscador-precios-bot"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+GITHUB_REPO = "firulais1xd/Buscador-Precios"
